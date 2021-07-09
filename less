@@ -1,0 +1,191 @@
+[33mcommit 039a6f223b63895f6a86647ca33ef58f2c81d092[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 13:47:59 2021 -0400
+
+    Add an image
+
+[1mdiff --git a/images/breaching_whale.jpg b/images/breaching_whale.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a821434[m
+Binary files /dev/null and b/images/breaching_whale.jpg differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 318a392..1128c26 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,5 +8,6 @@[m
+         <h2>Goodbye, world</h2>[m
+         <h3>Test world</h3>[m
+         <p>Call me Ishmael</p>[m
+[32m+[m[32m        <img src="images/breaching_whale.jpg" alt="Whale">[m
+     </body>[m
+ </html>[m
+
+[33mcommit 05e2aef60cc247ad002f2c57c4c6e7af27acd125[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 12:14:25 2021 -0400
+
+    Added link to official git documentation
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 40629c7..5dc9f7e 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -2,4 +2,6 @@[m
+ [m
+ This is a sample website made as part of [*Learn Enough Git to Be Dangerous*] (https://www.learnenough.com/git-tutorial), possibly the greatest beginner Git tutorial in the history of the Uiverse. You should totally [check it out] (https://www.learnenough.com/#email_list) and [follow @learnenough] (https://twitter.com/learnenough) on Twitter. [m
+ [m
+[31m-After finishing *Learn Enough Git to Be Dangerous*, you'll know enough Git to be *dangerous*. This means you'll be able to use Git to track changes in your projects, back up data, share your work with others, and collaborate with programmer and other users of Git.[m
+\ No newline at end of file[m
+[32m+[m[32mAfter finishing *Learn Enough Git to Be Dangerous*, you'll know enough Git to be *dangerous*. This means you'll be able to use Git to track changes in your projects, back up data, share your work with others, and collaborate with programmer and other users of Git.[m
+[32m+[m
+[32m+[m[32mhttps://git-scm.com/doc[m
+\ No newline at end of file[m
+
+[33mcommit a0d133eb35be619a2bb57b7bd6a4b6050cb78a6e[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 12:01:52 2021 -0400
+
+    Add README file
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..40629c7[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m# sample website[m
+[32m+[m
+[32m+[m[32mThis is a sample website made as part of [*Learn Enough Git to Be Dangerous*] (https://www.learnenough.com/git-tutorial), possibly the greatest beginner Git tutorial in the history of the Uiverse. You should totally [check it out] (https://www.learnenough.com/#email_list) and [follow @learnenough] (https://twitter.com/learnenough) on Twitter.[m[41m [m
+[32m+[m
+[32m+[m[32mAfter finishing *Learn Enough Git to Be Dangerous*, you'll know enough Git to be *dangerous*. This means you'll be able to use Git to track changes in your projects, back up data, share your work with others, and collaborate with programmer and other users of Git.[m
+\ No newline at end of file[m
+
+[33mcommit c31e3fcf822e1b5fb08344995df9c1d82a6f3a4e[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 11:42:24 2021 -0400
+
+    Added third header tag
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 45c8ac7..318a392 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -5,6 +5,8 @@[m
+     </head>[m
+     <body>[m
+         <h1>hello, world</h1>[m
+[32m+[m[32m        <h2>Goodbye, world</h2>[m
+[32m+[m[32m        <h3>Test world</h3>[m
+         <p>Call me Ishmael</p>[m
+     </body>[m
+ </html>[m
+
+[33mcommit 1cac15f71afd61a1559562bc96d8eaecb8efbac1[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 11:09:41 2021 -0400
+
+    Added title to index.html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 4c400e9..45c8ac7 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,7 +1,7 @@[m
+ <!DOCTYPE html>[m
+ <html>[m
+     <head>[m
+[31m-        <title></title>[m
+[32m+[m[32m        <title>A whale of a greeting</title>[m
+     </head>[m
+     <body>[m
+         <h1>hello, world</h1>[m
+
+[33mcommit c8ae5f81e8ea7db8a92fba23488735296424364a[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 11:08:56 2021 -0400
+
+    Add some HTML structure
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 45d754a..4c400e9 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1,10 @@[m
+[31m-<h1>hello, world</h1>[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m    <head>[m
+[32m+[m[32m        <title></title>[m
+[32m+[m[32m    </head>[m
+[32m+[m[32m    <body>[m
+[32m+[m[32m        <h1>hello, world</h1>[m
+[32m+[m[32m        <p>Call me Ishmael</p>[m
+[32m+[m[32m    </body>[m
+[32m+[m[32m</html>[m
+
+[33mcommit e65b5365cd90d4701f7930447ca3aac6a01371f8[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 11:05:33 2021 -0400
+
+    Add an h1 tag
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 4b5fa63..45d754a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1 @@[m
+[31m-hello, world[m
+[32m+[m[32m<h1>hello, world</h1>[m
+
+[33mcommit 454609d3b627e4df4dcb17e5406beb59e316061d[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 10:59:08 2021 -0400
+
+    Add baz
+
+[1mdiff --git a/baz b/baz[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 605a4e45c09a1d18ff1abeab723e93b1989fe8cb[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 10:58:09 2021 -0400
+
+    Add content to index.html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e69de29..4b5fa63 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mhello, world[m
+
+[33mcommit 9f2a2333cc93fd9aeb34cdeb0bbdf7ee67df2d86[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 10:56:20 2021 -0400
+
+    "Adding bar"
+
+[1mdiff --git a/bar b/bar[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 6d3f5703bfa8c3f208b6b262a508770969e08d3c[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 10:55:56 2021 -0400
+
+    Adding foo
+
+[1mdiff --git a/foo b/foo[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit bcb41be679eced26dd109edad1ecc1ba8330dece[m
+Author: Gavin OConnor <gavin.oconnor@yale.edu>
+Date:   Fri Jul 9 10:54:23 2021 -0400
+
+    Initalize repository
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
